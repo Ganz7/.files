@@ -1,0 +1,11 @@
+# ~.inputrc 
+# Captain Kirk at your service Ganz7
+
+#Effortless history search
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+set show-all-if-ambiguous on
+set completion-ignore-case on
+
+#makes completion suggestions easier to look at
+set completion-prefix-display-length 2
