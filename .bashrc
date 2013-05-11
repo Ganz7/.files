@@ -26,6 +26,10 @@ alias grr='git remote rm'
 alias gpu='git pull'
 alias gcl='git clone'
 
+#Dangerous command. Use at your own risk.
+#You may be killed by a ninja in the next few minutes
+alias dangcache='free && sync && echo 3 > /proc/sys/vm/drop_caches && free'
+
 #export PATH=/usr/bin:$PATH
 
 # If not running interactively, don't do anything
