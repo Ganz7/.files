@@ -1,3 +1,7 @@
 #grep shortcuts
 
+#match the whole word
 alias gcur="grep -rnw '.' -e"
+
+#match any part of the word
+alias gcura="grep -rn '.' -e"
