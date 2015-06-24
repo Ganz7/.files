@@ -1,0 +1,3 @@
+#grep shortcuts
+
+alias gcur="grep -rnw '.' -e"
